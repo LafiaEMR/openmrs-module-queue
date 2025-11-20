@@ -111,3 +111,6 @@ Modules that require this module can define and configure own custom algorithms.
 ## Documentation
 
 - REST documentation [here](https://rest.openmrs.org/#queue)
+
+## omod creation
+```mvn clean install -DskipTests -Dmaven.test.skip=true```
